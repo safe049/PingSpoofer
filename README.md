@@ -12,4 +12,4 @@ python main.py
 ```
 
 ## License
-ONC License [ONC](https://github.com/safe049/ONC)
+[ONC](https://github.com/safe049/ONC) License 
