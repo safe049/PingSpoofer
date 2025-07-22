@@ -1,0 +1,17 @@
+1. Open the npcap folder and run npcap.exe inside it to install npcap.  
+2. Launch PingSpoofer.exe, set a latency value (it will fluctuate ±30 ms), then choose the network interface:  
+   - For wired, look up the name of your current Local Area Connection in Windows network settings (e.g., “Local Area Connection 4”) and select the matching interface in the program.  
+   - For wireless, choose WLAN.  
+3. Hit Start!  
+4. Now BF4 and some other games should display a ping within the range you configured.
+
+Important:  
+- During npcap installation, on the screen with three check-boxes, be sure to tick the bottom two.  
+- Always run PingSpoofer as administrator.
+
+Using it with a game booster:  
+1. First start the booster and enable acceleration in TUN/TAP mode.  
+   - AK Accelerator uses “Mode 5.”  
+   - Smaller boosters like KuaiChuan are usually pre-configured and don’t require TUN.  
+2. If successful, you’ll see a new adapter in Control Panel → Network Connections whose name contains your booster or the words “tun” / “tap.”  
+3. In PingSpoofer, select that adapter (e.g., ak_wintunwocks for AK). If it doesn’t appear, restart PingSpoofer.
